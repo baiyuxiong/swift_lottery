@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Hello" customModuleProvider="target">
+            <connections>
+                <outlet property="imgBackground" destination="4p3-SL-mEq" id="Ril-NV-rSu"/>
+                <outlet property="lbCurrentUser" destination="L02-Oy-TjR" id="8ci-Nu-p1g"/>
+                <outlet property="mStartOrStop" destination="Co3-jT-2v2" id="Gpz-1t-HSp"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="熊窝窝抽奖" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="熊窝窝抽奖" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="关于" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="偏好设置.." id="k6P-DC-sCf">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="btnPreferences:" target="Voe-Tx-rLC" id="dGq-os-qyl"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="sju-eR-3GQ"/>
+                            <menuItem title="隐藏" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="隐藏其它应用" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="显示全部" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="退出" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="数据" id="dMs-cI-mzQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="数据" id="bib-Uj-vzu">
+                        <items>
+                            <menuItem title="导入抽奖用户" id="F2n-Va-k2l">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="mImportData:" target="Voe-Tx-rLC" id="ymv-Yh-yI3"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="设置背景图片" id="fE6-dg-Por">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="btnSetBackground:" target="Voe-Tx-rLC" id="15d-nq-AWg"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="动作" id="4gG-8o-6En">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="动作" id="UwN-Pw-nEa">
+                        <items>
+                            <menuItem title="开始" keyEquivalent=" " id="Co3-jT-2v2">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="btnStartOrStop:" target="Voe-Tx-rLC" id="QqJ-sD-r05"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+        </menu>
+        <window title="熊窝窝抽奖" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
+            <rect key="contentRect" x="483" y="276" width="504" height="360"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="504" height="360"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4p3-SL-mEq">
+                        <rect key="frame" x="0.0" y="0.0" width="504" height="360"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="5aO-f5-9bc"/>
+                    </imageView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L02-Oy-TjR">
+                        <rect key="frame" x="20" y="160" width="466" height="41"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="NCW-DU-i0l">
+                            <font key="font" metaFont="system" size="20"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="L02-Oy-TjR" secondAttribute="centerY" id="4Xm-zm-0f2"/>
+                    <constraint firstAttribute="trailing" secondItem="4p3-SL-mEq" secondAttribute="trailing" id="MIp-xi-U4s"/>
+                    <constraint firstAttribute="centerX" secondItem="L02-Oy-TjR" secondAttribute="centerX" id="ej4-8z-Gd1"/>
+                    <constraint firstItem="4p3-SL-mEq" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="odt-YF-2Ok"/>
+                    <constraint firstItem="4p3-SL-mEq" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="rUy-fo-6WG"/>
+                    <constraint firstAttribute="bottom" secondItem="4p3-SL-mEq" secondAttribute="bottom" id="x7T-0L-0Ap"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="330" y="536"/>
+        </window>
+    </objects>
+</document>
