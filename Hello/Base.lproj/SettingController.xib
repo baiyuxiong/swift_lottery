@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1017" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SettingController" customModule="Hello" customModuleProvider="target">
+            <connections>
+                <outlet property="fontSizeField" destination="SrJ-dU-dqc" id="i18-3m-nfs"/>
+                <outlet property="horizontalCenterBtn" destination="kQa-W4-hOQ" id="ZbO-b6-UVX"/>
+                <outlet property="horizontalLeftBtn" destination="ye0-7z-6Ur" id="8GN-1P-2Yb"/>
+                <outlet property="horizontalRightBtn" destination="lGE-FC-343" id="Mhe-ZX-iri"/>
+                <outlet property="textColorWell" destination="lo9-9a-HOz" id="BEh-wW-DR9"/>
+                <outlet property="verticalCenterBtn" destination="HpW-n6-L8c" id="Y8k-Qw-v9X"/>
+                <outlet property="verticalCustomBtn" destination="DD5-tP-tM6" id="d5G-aV-agx"/>
+                <outlet property="verticalTopSizeField" destination="6kX-Nq-5dx" id="7Vw-h1-D4t"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="549" height="184"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="549" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-uw-7Zq">
+                        <rect key="frame" x="20" y="20" width="509" height="144"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgW-59-WoI">
+                                <rect key="frame" x="18" y="107" width="97" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="字体颜色" id="HDE-cY-FUB">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUe-dy-wxu">
+                                <rect key="frame" x="18" y="77" width="97" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="字体大小" id="2i2-2e-PQ4">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SrJ-dU-dqc">
+                                <rect key="frame" x="121" y="74" width="96" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="20" drawsBackground="YES" id="uSV-SO-GXA">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UnX-99-AND">
+                                <rect key="frame" x="18" y="23" width="97" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="文字垂直距离" id="7oN-Cs-Mke">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBO-lE-qhd">
+                                <rect key="frame" x="18" y="48" width="97" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="文字水平距离" id="cZJ-mQ-seK">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kQa-W4-hOQ">
+                                <rect key="frame" x="120" y="47" width="48" height="18"/>
+                                <buttonCell key="cell" type="radio" title="居中" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="4Ar-HO-Gk7">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="horizontalCenterBtnAction:" target="-2" id="KU0-Wp-RbI"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ye0-7z-6Ur">
+                                <rect key="frame" x="206" y="47" width="48" height="18"/>
+                                <buttonCell key="cell" type="radio" title="居左" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="MLF-ek-Q5C">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="horizontalLeftBtnAction:" target="-2" id="IO9-EH-5zF"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpW-n6-L8c">
+                                <rect key="frame" x="120" y="22" width="48" height="18"/>
+                                <buttonCell key="cell" type="radio" title="居中" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="tA3-4r-dRb">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="verticalCenterBtnAction:" target="-2" id="JNB-dY-Tr0"/>
+                                </connections>
+                            </button>
+                            <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lo9-9a-HOz">
+                                <rect key="frame" x="122" y="104" width="44" height="23"/>
+                                <color key="color" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <action selector="textColorWellAction:" target="-2" id="5v0-Sk-JAC"/>
+                                </connections>
+                            </colorWell>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6kX-Nq-5dx">
+                                <rect key="frame" x="325" y="20" width="54" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="20" drawsBackground="YES" id="Nz7-SG-N2m">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD5-tP-tM6">
+                                <rect key="frame" x="206" y="22" width="113" height="18"/>
+                                <buttonCell key="cell" type="radio" title="自定义，距顶部" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="RZV-XQ-jnm">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="verticalCustomBtnAction:" target="-2" id="REz-wN-xaY"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGE-FC-343">
+                                <rect key="frame" x="317" y="47" width="48" height="18"/>
+                                <buttonCell key="cell" type="radio" title="居右" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ImU-4Y-aBP">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="horizontalRightBtnAction:" target="-2" id="San-ma-kTn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="508.5" y="309"/>
+        </window>
+    </objects>
+</document>

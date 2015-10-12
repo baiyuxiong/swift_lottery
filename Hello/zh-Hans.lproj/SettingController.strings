@@ -1,0 +1,36 @@
+
+/* Class = "NSTextFieldCell"; title = "字体大小"; ObjectID = "2i2-2e-PQ4"; */
+"2i2-2e-PQ4.title" = "字体大小";
+
+/* Class = "NSButtonCell"; title = "居中"; ObjectID = "4Ar-HO-Gk7"; */
+"4Ar-HO-Gk7.title" = "居中";
+
+/* Class = "NSTextFieldCell"; title = "文字垂直距离"; ObjectID = "7oN-Cs-Mke"; */
+"7oN-Cs-Mke.title" = "文字垂直距离";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "字体颜色"; ObjectID = "HDE-cY-FUB"; */
+"HDE-cY-FUB.title" = "字体颜色";
+
+/* Class = "NSButtonCell"; title = "居右"; ObjectID = "ImU-4Y-aBP"; */
+"ImU-4Y-aBP.title" = "居右";
+
+/* Class = "NSButtonCell"; title = "居左"; ObjectID = "MLF-ek-Q5C"; */
+"MLF-ek-Q5C.title" = "居左";
+
+/* Class = "NSTextFieldCell"; title = "20"; ObjectID = "Nz7-SG-N2m"; */
+"Nz7-SG-N2m.title" = "20";
+
+/* Class = "NSButtonCell"; title = "自定义，距顶部"; ObjectID = "RZV-XQ-jnm"; */
+"RZV-XQ-jnm.title" = "自定义，距顶部";
+
+/* Class = "NSTextFieldCell"; title = "文字水平距离"; ObjectID = "cZJ-mQ-seK"; */
+"cZJ-mQ-seK.title" = "文字水平距离";
+
+/* Class = "NSButtonCell"; title = "居中"; ObjectID = "tA3-4r-dRb"; */
+"tA3-4r-dRb.title" = "居中";
+
+/* Class = "NSTextFieldCell"; title = "20"; ObjectID = "uSV-SO-GXA"; */
+"uSV-SO-GXA.title" = "20";

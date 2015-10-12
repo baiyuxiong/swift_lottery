@@ -1,22 +1,39 @@
 swift_lottery
 =============
+---
+#EN
 
 A simple lottery app build for os x with swift
 
+## Feature：
+1. Set App background
+2. Import user data in txt file, One per line. sample:  
+13812345678  
+13812345679  
+13812345670  
+3. Can set font color and size
 
-一个简单的抽奖程序。用swift写的，运行在最新的yosemite上。
+## TODO:
+1. Set vertical position not works yet.
+2. I18N
 
-# 特性：
+----
+
+
+##CN
+一个简单的抽奖程序。用swift写的，运行在最新的OS X上。
+
+## Feature：
 1. 设置APP背景
 2. 可通过文件导入多行数据，做为抽奖数据。每行一条。如以手机号抽奖，数据文件可以类似：  
 13812345678  
 13812345679  
 13812345670  
-3. 可以设置中奖数字的字体大小及颜色
+3. 可以设置中奖数字的字体大小及颜色/set font color and size
 
-# BUG:
-1. 偏好设置只能打开一次，再次点击菜单栏就打不开了，不知道为什么。
-2. 设置了字体必须回车才生效，想检测一个textField的change事件，但不会弄……
+## TODO:
+1. 设置中奖文字的重置距离不管用
+2. 国际化
 
 
 http://www.baiyuxiong.com/

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>430EF67B-D378-4072-9833-2C7BB877D953</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hello</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58005A4D94DD3984BBB63A41B3D73615C209704F</key>
+		<string>https://github.com/baiyuxiong/swift_lottery.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hello.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58005A4D94DD3984BBB63A41B3D73615C209704F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/baiyuxiong/swift_lottery.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58005A4D94DD3984BBB63A41B3D73615C209704F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58005A4D94DD3984BBB63A41B3D73615C209704F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lottery</string>
+		</dict>
+	</array>
+</dict>
+</plist>

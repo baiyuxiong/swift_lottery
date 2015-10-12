@@ -1,0 +1,54 @@
+
+/* Class = "NSMenuItem"; title = "熊窝窝抽奖"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "熊窝窝抽奖";
+
+/* Class = "NSMenuItem"; title = "动作"; ObjectID = "4gG-8o-6En"; */
+"4gG-8o-6En.title" = "动作";
+
+/* Class = "NSMenuItem"; title = "退出"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "退出";
+
+/* Class = "NSMenuItem"; title = "关于"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "关于";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "开始"; ObjectID = "Co3-jT-2v2"; */
+"Co3-jT-2v2.title" = "开始";
+
+/* Class = "NSMenuItem"; title = "导入抽奖用户"; ObjectID = "F2n-Va-k2l"; */
+"F2n-Va-k2l.title" = "导入抽奖用户";
+
+/* Class = "NSMenuItem"; title = "显示全部"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "显示全部";
+
+/* Class = "NSTextFieldCell"; title = "示例文字"; ObjectID = "NCW-DU-i0l"; */
+"NCW-DU-i0l.title" = "示例文字";
+
+/* Class = "NSMenuItem"; title = "隐藏"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "隐藏";
+
+/* Class = "NSWindow"; title = "熊窝窝抽奖"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "熊窝窝抽奖";
+
+/* Class = "NSMenu"; title = "动作"; ObjectID = "UwN-Pw-nEa"; */
+"UwN-Pw-nEa.title" = "动作";
+
+/* Class = "NSMenuItem"; title = "隐藏其它应用"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隐藏其它应用";
+
+/* Class = "NSMenu"; title = "设置"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "设置";
+
+/* Class = "NSMenuItem"; title = "设置"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "设置";
+
+/* Class = "NSMenuItem"; title = "设置背景图片"; ObjectID = "fE6-dg-Por"; */
+"fE6-dg-Por.title" = "设置背景图片";
+
+/* Class = "NSMenuItem"; title = "字体设置"; ObjectID = "k6P-DC-sCf"; */
+"k6P-DC-sCf.title" = "字体设置";
+
+/* Class = "NSMenu"; title = "熊窝窝抽奖"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "熊窝窝抽奖";

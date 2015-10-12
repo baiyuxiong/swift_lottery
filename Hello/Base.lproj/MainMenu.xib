@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1017" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -32,13 +32,6 @@
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                            <menuItem title="偏好设置.." id="k6P-DC-sCf">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="btnPreferences:" target="Voe-Tx-rLC" id="dGq-os-qyl"/>
-                                </connections>
-                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="sju-eR-3GQ"/>
                             <menuItem title="隐藏" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
@@ -66,9 +59,9 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="数据" id="dMs-cI-mzQ">
+                <menuItem title="设置" id="dMs-cI-mzQ">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="数据" id="bib-Uj-vzu">
+                    <menu key="submenu" title="设置" id="bib-Uj-vzu">
                         <items>
                             <menuItem title="导入抽奖用户" id="F2n-Va-k2l">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -80,6 +73,12 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="btnSetBackground:" target="Voe-Tx-rLC" id="15d-nq-AWg"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="字体设置" id="k6P-DC-sCf">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="menuFontSet:" target="Voe-Tx-rLC" id="faA-L2-mSY"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -113,9 +112,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="504" height="360"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="5aO-f5-9bc"/>
                     </imageView>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L02-Oy-TjR">
-                        <rect key="frame" x="20" y="160" width="466" height="41"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="NCW-DU-i0l">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L02-Oy-TjR">
+                        <rect key="frame" x="38" y="160" width="428" height="40"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="示例文字" id="NCW-DU-i0l">
                             <font key="font" metaFont="system" size="20"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -123,9 +122,9 @@
                     </textField>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="centerY" secondItem="L02-Oy-TjR" secondAttribute="centerY" id="4Xm-zm-0f2"/>
                     <constraint firstAttribute="trailing" secondItem="4p3-SL-mEq" secondAttribute="trailing" id="MIp-xi-U4s"/>
-                    <constraint firstAttribute="centerX" secondItem="L02-Oy-TjR" secondAttribute="centerX" id="ej4-8z-Gd1"/>
+                    <constraint firstAttribute="trailing" secondItem="L02-Oy-TjR" secondAttribute="trailing" constant="40" id="Upi-Ug-0JH"/>
+                    <constraint firstItem="L02-Oy-TjR" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="40" id="Vxe-rt-OMB"/>
                     <constraint firstItem="4p3-SL-mEq" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="odt-YF-2Ok"/>
                     <constraint firstItem="4p3-SL-mEq" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="rUy-fo-6WG"/>
                     <constraint firstAttribute="bottom" secondItem="4p3-SL-mEq" secondAttribute="bottom" id="x7T-0L-0Ap"/>
@@ -133,5 +132,6 @@
             </view>
             <point key="canvasLocation" x="330" y="536"/>
         </window>
+        <userDefaultsController representsSharedInstance="YES" id="Jy6-oP-fer"/>
     </objects>
 </document>

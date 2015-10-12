@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2220701BCA837E009847A6 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22206E1BCA837E009847A6 /* SettingController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD2220751BCBB867009847A6 /* SettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD2220771BCBB867009847A6 /* SettingController.xib */; };
 		FD246BDD19F6308E00EA960C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD246BDC19F6308E00EA960C /* AppDelegate.swift */; };
 		FD246BDF19F6308E00EA960C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD246BDE19F6308E00EA960C /* Images.xcassets */; };
 		FD246BE219F6308E00EA960C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD246BE019F6308E00EA960C /* MainMenu.xib */; };
 		FD246BEE19F6308E00EA960C /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD246BED19F6308E00EA960C /* HelloTests.swift */; };
-		FD6557FA19F9E062002E7111 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6557F919F9E062002E7111 /* Preferences.swift */; };
-		FD68F77219F88CC700C80A14 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD68F77119F88CC700C80A14 /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD22206E1BCA837E009847A6 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		FD2220731BCBB717009847A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		FD2220741BCBB846009847A6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		FD2220761BCBB867009847A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingController.xib; sourceTree = "<group>"; };
+		FD2220791BCBB86A009847A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SettingController.strings; sourceTree = "<group>"; };
+		FD22207B1BCBB86A009847A6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SettingController.strings"; sourceTree = "<group>"; };
 		FD246BD719F6308E00EA960C /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD246BDB19F6308E00EA960C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD246BDC19F6308E00EA960C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +40,6 @@
 		FD246BE719F6308E00EA960C /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD246BEC19F6308E00EA960C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD246BED19F6308E00EA960C /* HelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTests.swift; sourceTree = "<group>"; };
-		FD6557F919F9E062002E7111 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
-		FD68F77119F88CC700C80A14 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				FD246BDC19F6308E00EA960C /* AppDelegate.swift */,
-				FD6557F919F9E062002E7111 /* Preferences.swift */,
 				FD246BDE19F6308E00EA960C /* Images.xcassets */,
 				FD246BE019F6308E00EA960C /* MainMenu.xib */,
 				FD246BDA19F6308E00EA960C /* Supporting Files */,
-				FD68F77119F88CC700C80A14 /* Preferences.xib */,
+				FD22206E1BCA837E009847A6 /* SettingController.swift */,
+				FD2220771BCBB867009847A6 /* SettingController.xib */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -156,7 +160,9 @@
 		FD246BCF19F6308E00EA960C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = baiyuxiong;
 				TargetAttributes = {
 					FD246BD619F6308E00EA960C = {
@@ -175,6 +181,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FD246BCE19F6308E00EA960C;
 			productRefGroup = FD246BD819F6308E00EA960C /* Products */;
@@ -192,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2220751BCBB867009847A6 /* SettingController.xib in Resources */,
 				FD246BDF19F6308E00EA960C /* Images.xcassets in Resources */,
-				FD68F77219F88CC700C80A14 /* Preferences.xib in Resources */,
 				FD246BE219F6308E00EA960C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD6557FA19F9E062002E7111 /* Preferences.swift in Sources */,
+				FD2220701BCA837E009847A6 /* SettingController.swift in Sources */,
 				FD246BDD19F6308E00EA960C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,10 +243,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FD2220771BCBB867009847A6 /* SettingController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2220761BCBB867009847A6 /* Base */,
+				FD2220791BCBB86A009847A6 /* en */,
+				FD22207B1BCBB86A009847A6 /* zh-Hans */,
+			);
+			name = SettingController.xib;
+			sourceTree = "<group>";
+		};
 		FD246BE019F6308E00EA960C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FD246BE119F6308E00EA960C /* Base */,
+				FD2220731BCBB717009847A6 /* en */,
+				FD2220741BCBB846009847A6 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -267,6 +286,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -330,6 +350,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BYX.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -340,6 +361,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BYX.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -359,6 +381,7 @@
 				);
 				INFOPLIST_FILE = HelloTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BYX.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Contents/MacOS/Hello";
 			};
@@ -375,6 +398,7 @@
 				);
 				INFOPLIST_FILE = HelloTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BYX.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello.app/Contents/MacOS/Hello";
 			};
